@@ -1,0 +1,59 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "settings": {
+        "import/resolver": {
+          "webpack": {
+            "config": "webpack.config.js"
+          }
+        }
+    },
+    "rules": {
+        "react/jsx-uses-vars": ["error"],
+        "comma-dangle": "off",
+        "no-console": "off",
+        "object-shorthand": "off",
+        "quotes": "off",
+        "react/jsx-curly-spacing": ["error", "always"],
+        "no-underscore-dangle": ["error", { "allow": ["_id"] }],
+        "keyword-spacing": ["error",
+            {
+                "after": false,
+                "overrides": {
+                    "import": { "after": true },
+                    "from": { "after": true },
+                    "else": { "after": true },
+                    "return": { "after": true }
+                }
+            }],
+        "react/forbid-prop-types": "off",
+        "no-param-reassign": ["error", { "props": false }],
+        "generator-star-spacing": ["error", {"before": true, "after": false}],
+        "max-len": ["error", 120],
+        "no-plusplus": "off",
+        "camelcase": "off",
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}

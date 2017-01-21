@@ -1,0 +1,23 @@
+.md-overview-paper{
+  margin: 30px;
+  padding: 15px;
+}
+
+.lg-overview-paper{
+  margin: 30px;
+  padding: 15px;
+  height: 400px;
+}
+
+.rotate90{
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.overview-title{
+  font-family: 'Bungee Shade', cursive;
+  font-size: 25px;
+}
