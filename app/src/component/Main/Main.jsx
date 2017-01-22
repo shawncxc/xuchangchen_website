@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import MainNavbar from './MainNavbar';
 import Overview from './Overview';
+import MainCarousel from './MainCarousel';
 import MainStyle from 'style/main.scss';
 
 export default class Main extends React.Component {
@@ -16,7 +17,7 @@ export default class Main extends React.Component {
       <div className="main">
         <Row className="main-navbar"><MainNavbar /></Row>
         <Row className="main-overview"><Overview /></Row>
-        <Row></Row>
+        <Row><MainCarousel /></Row>
       </div>
     );
   }
