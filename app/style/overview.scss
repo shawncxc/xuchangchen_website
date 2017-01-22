@@ -1,6 +1,7 @@
 .md-overview-paper{
-  margin: 30px;
+  margin: 10px;
   padding: 15px;
+  float: left;
 }
 
 .lg-overview-paper{
@@ -19,5 +20,13 @@
 
 .overview-title{
   font-family: 'Bungee Shade', cursive;
-  font-size: 25px;
+  font-size: 30px;
+}
+
+.overview-content{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 20px;
+  font-weight: bold;
 }
