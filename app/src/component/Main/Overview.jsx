@@ -4,6 +4,8 @@ import Col from 'react-bootstrap/lib/Col';
 import Media from 'react-bootstrap/lib/Media';
 import Image from 'react-bootstrap/lib/Image';
 import Paper from 'material-ui/Paper';
+import Chip from 'material-ui/Chip';
+import Avatar from 'material-ui/Avatar';
 import OverviewStyle from 'style/overview.scss';
 
 // Img

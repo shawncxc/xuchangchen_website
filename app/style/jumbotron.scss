@@ -1,8 +1,13 @@
 .jumbotron{
+  height: 250px;
   margin: 0px;
   padding: 30px;
   background-image: url("asset/IMG_3.jpg");
   background-size: cover;
   color: white;
-  font-family: 'Monda', sans-serif;
+
+  p{
+    font-family: 'Monda', sans-serif;
+    font-size: 30px;
+  }
 }

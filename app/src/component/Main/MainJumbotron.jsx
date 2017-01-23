@@ -10,7 +10,7 @@ export default class MainJumbotron extends React.Component {
   render() {
     return (
       <Jumbotron>
-        <h2>Xuchang Chen</h2>
+        <p>Xuchang Chen</p>
         <p>I am a full-stack developer, and ...</p>
       </Jumbotron>
     );

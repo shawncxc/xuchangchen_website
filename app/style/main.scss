@@ -2,6 +2,7 @@
   height: 100%;
   width: 100%;
   x-overflow: hidden;
+  background-color: #efefef;
 
   .main-navbar{
     margin: 0px;
@@ -14,5 +15,23 @@
 
   .main-overview{
     
+  }
+
+
+  .main-detail-intro{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 200px;
+  }
+
+  .main-contact-me{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .main-bottom-navbar{
+    margin-top: 30px;
   }
 }
