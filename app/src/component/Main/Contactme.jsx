@@ -1,5 +1,6 @@
 import React from 'react';
 import Well from 'react-bootstrap/lib/Well';
+import Map from './Map/Map';
 
 export default class Contactme extends React.Component {
   constructor() {
@@ -10,6 +11,7 @@ export default class Contactme extends React.Component {
     return (
       <Well>
         <h3>Contact Me</h3>
+        <Map />
       </Well>
     );
   }

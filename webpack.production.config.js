@@ -36,7 +36,8 @@ module.exports = {
     alias: {
       component: path.resolve(ROOT_PATH, 'app/src/component/'),
       style: path.resolve(ROOT_PATH, 'app/style/'),
-      asset: path.resolve(ROOT_PATH, 'app/style/asset/')
+      asset: path.resolve(ROOT_PATH, 'app/style/asset/'),
+      root: ROOT_PATH,
     }
   },
   output: {
